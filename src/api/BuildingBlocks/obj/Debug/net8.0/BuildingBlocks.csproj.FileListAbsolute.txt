@@ -1,0 +1,12 @@
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.deps.json
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.CoreCompileInputs.cache
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll

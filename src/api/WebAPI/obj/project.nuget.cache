@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Edu066m1QQ=",
+  "success": true,
+  "projectFilePath": "/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/WebAPI/WebAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/asyncawaitbestpractices/9.0.0/asyncawaitbestpractices.9.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/csharpguidelinesanalyzer/3.8.5/csharpguidelinesanalyzer.3.8.5.nupkg.sha512",
+    "/Users/user/.nuget/packages/meziantou.analyzer/2.0.182/meziantou.analyzer.2.0.182.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/8.0.6/microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.12.19/microsoft.visualstudio.threading.analyzers.17.12.19.nupkg.sha512",
+    "/Users/user/.nuget/packages/roslynator.analyzers/4.12.9/roslynator.analyzers.4.12.9.nupkg.sha512",
+    "/Users/user/.nuget/packages/roslynator.codeanalysis.analyzers/4.12.9/roslynator.codeanalysis.analyzers.4.12.9.nupkg.sha512",
+    "/Users/user/.nuget/packages/roslynator.formatting.analyzers/4.12.9/roslynator.formatting.analyzers.4.12.9.nupkg.sha512",
+    "/Users/user/.nuget/packages/seriloganalyzer/0.15.0/seriloganalyzer.0.15.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
