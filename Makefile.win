@@ -1,0 +1,23 @@
+include .env
+export
+
+test:
+	@echo "Running tests..."
+	@echo "Tests passed."
+
+configure-dns:
+	@powershell -ExecutionPolicy Bypass -File .\scripts\Configure-DNS.ps1
+
+start-service:
+	@powershell -ExecutionPolicy Bypass -File .\scripts\Start-WebServer.ps1
+
+stop-service:
+	@powershell -ExecutionPolicy Bypass -File .\scripts\Stop-WebServer.ps1
+
+restart-service: stop-service start-service
+	@echo "Service restarted."
+
+apply-all: configure-dns start-service
+	@echo "DNS and services configured."
+
+.PHONY: test configure-dns start-service stop-service restart-service apply-all

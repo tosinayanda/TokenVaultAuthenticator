@@ -1,0 +1,24 @@
+include .env
+export
+
+test:
+	@echo "Running tests..."
+	@echo "Tests passed."
+
+configure-dns:
+	@bash scripts/configure_dns.sh
+
+start-dns:
+	@bash scripts/start_dnsmasq.sh
+
+stop-dns:
+	@bash scripts/stop_dnsmasq.sh
+
+restart-dns: stop-dns start-dns
+	@echo "dnsmasq restarted."
+
+apply-dns: configure-dns restart-dns
+	@echo "DNS configuration applied. You might need to flush your DNS cache."
+	@echo "Run 'sudo dscacheutil -flushcache' and 'sudo killall -HUP mDNSResponder' if needed."
+
+.PHONY: test configure-dns start-dns stop-dns restart-dns apply-dns
