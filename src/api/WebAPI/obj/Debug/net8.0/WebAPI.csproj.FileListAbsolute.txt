@@ -34,3 +34,4 @@
 /Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/WebAPI/obj/Debug/net8.0/WebAPI.pdb
 /Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/WebAPI/obj/Debug/net8.0/WebAPI.genruntimeconfig.cache
 /Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/WebAPI/obj/Debug/net8.0/ref/WebAPI.dll
+/Users/user/RealPortfolio/TokenVaultAuthenticator/src/api/WebAPI/bin/Debug/net8.0/AsyncAwaitBestPractices.dll

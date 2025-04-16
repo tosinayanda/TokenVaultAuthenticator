@@ -44,8 +44,82 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AsyncAwaitBestPractices": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "CSharpGuidelinesAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.182, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.VisualStudio.Threading.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.12.19, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "SerilogAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.15.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )",
+              "versionCentrallyManaged": true
+            }
+          },
           "centralPackageVersions": {
+            "AsyncAwaitBestPractices": "9.0.0",
+            "CSharpGuidelinesAnalyzer": "3.8.5",
+            "Meziantou.Analyzer": "2.0.182",
             "Microsoft.AspNetCore.OpenApi": "8.0.6",
+            "Microsoft.VisualStudio.Threading.Analyzers": "17.12.19",
+            "Roslynator.Analyzers": "4.12.9",
+            "Roslynator.CodeAnalysis.Analyzers": "4.12.9",
+            "Roslynator.Formatting.Analyzers": "4.12.9",
+            "SerilogAnalyzer": "0.15.0",
+            "StyleCop.Analyzers": "1.1.118",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [
@@ -113,9 +187,72 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AsyncAwaitBestPractices": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "CSharpGuidelinesAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Meziantou.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.182, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.VisualStudio.Threading.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.12.19, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.9, )",
+              "versionCentrallyManaged": true
+            },
+            "SerilogAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.15.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )",
               "versionCentrallyManaged": true
             },
             "Swashbuckle.AspNetCore": {
@@ -125,7 +262,16 @@
             }
           },
           "centralPackageVersions": {
+            "AsyncAwaitBestPractices": "9.0.0",
+            "CSharpGuidelinesAnalyzer": "3.8.5",
+            "Meziantou.Analyzer": "2.0.182",
             "Microsoft.AspNetCore.OpenApi": "8.0.6",
+            "Microsoft.VisualStudio.Threading.Analyzers": "17.12.19",
+            "Roslynator.Analyzers": "4.12.9",
+            "Roslynator.CodeAnalysis.Analyzers": "4.12.9",
+            "Roslynator.Formatting.Analyzers": "4.12.9",
+            "SerilogAnalyzer": "0.15.0",
+            "StyleCop.Analyzers": "1.1.118",
             "Swashbuckle.AspNetCore": "6.5.0"
           },
           "imports": [

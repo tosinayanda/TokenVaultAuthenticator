@@ -18,5 +18,12 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/user/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">/Users/user/.nuget/packages/stylecop.analyzers/1.1.118</PkgStyleCop_Analyzers>
+    <PkgSerilogAnalyzer Condition=" '$(PkgSerilogAnalyzer)' == '' ">/Users/user/.nuget/packages/seriloganalyzer/0.15.0</PkgSerilogAnalyzer>
+    <PkgRoslynator_Formatting_Analyzers Condition=" '$(PkgRoslynator_Formatting_Analyzers)' == '' ">/Users/user/.nuget/packages/roslynator.formatting.analyzers/4.12.9</PkgRoslynator_Formatting_Analyzers>
+    <PkgRoslynator_CodeAnalysis_Analyzers Condition=" '$(PkgRoslynator_CodeAnalysis_Analyzers)' == '' ">/Users/user/.nuget/packages/roslynator.codeanalysis.analyzers/4.12.9</PkgRoslynator_CodeAnalysis_Analyzers>
+    <PkgRoslynator_Analyzers Condition=" '$(PkgRoslynator_Analyzers)' == '' ">/Users/user/.nuget/packages/roslynator.analyzers/4.12.9</PkgRoslynator_Analyzers>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">/Users/user/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.12.19</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgCSharpGuidelinesAnalyzer Condition=" '$(PkgCSharpGuidelinesAnalyzer)' == '' ">/Users/user/.nuget/packages/csharpguidelinesanalyzer/3.8.5</PkgCSharpGuidelinesAnalyzer>
   </PropertyGroup>
 </Project>

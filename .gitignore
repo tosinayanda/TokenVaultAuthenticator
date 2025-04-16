@@ -1,1 +1,10 @@
+# Ignore Production Environment Variables
+# This file is used to store environment variables for production
+# and should not be included in version control.
 .env.PROD
+
+# Ignore build output
+bin/
+obj/
+*/bin/
+*/obj/
